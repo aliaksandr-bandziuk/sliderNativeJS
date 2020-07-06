@@ -1,0 +1,40 @@
+.wrapper {
+   width: 600px;
+   margin: 0 auto;
+   margin-top: 50px;
+}
+
+.slider-container {
+   overflow: hidden;
+   background-color: pink;
+}
+
+.slider-track {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   background-color: yellow;
+   -webkit-transition: .2s;
+   transition: .2s;
+}
+
+.slider-item {
+   height: 100px;
+   min-width: 200px;
+}
+
+.slider-item:nth-child(3n+1) {
+   background-color: yellow;
+}
+
+.slider-item:nth-child(3n+2) {
+   background-color: black;
+}
+
+.slider-item:nth-child(3n+3) {
+   background-color: blue;
+}
+
+.slider-buttons {
+   text-align: center;
+}
